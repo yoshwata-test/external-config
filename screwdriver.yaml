@@ -1,0 +1,10 @@
+childPipelines:
+  scmUrls:
+    - git@github.com:yoshwata/echo-test.git#master
+ 
+jobs:
+  test:
+    requires: [ ~commit, ~pr ]
+    image: node:22
+    steps:
+      - echo "This is test job"
