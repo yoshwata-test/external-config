@@ -1,6 +1,6 @@
 childPipelines:
   scmUrls:
-    - git@github.com:yoshwata/echo-test.git#master
+    - git@github.com:yoshwata-test/child.git
  
 jobs:
   test:
